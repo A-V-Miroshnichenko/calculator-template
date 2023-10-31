@@ -1,0 +1,28 @@
+.calc__div {
+    padding: 2rem;
+}
+
+.input__div, .select__div {
+    margin-bottom: 1.5rem;
+}
+div.button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+input, select, p.label, button#run__calk {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.div__result {
+    min-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 200px;
+    color: #0e5a7a;
+    border-bottom: 1px dashed #ced4da;
+}
+
+.form__validat {
+    color: red;
+}

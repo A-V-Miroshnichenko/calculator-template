@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator-template</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<div class="calc__div">
+
+    <div class="select__div">
+        <span>Result division (/)</span>
+        <select id="count__in">
+            <option value="selected1">10</option>
+            <option value="selected2">100</option>
+            <option value="selected3">1000</option>
+        </select>
+    </div>
+
+    <div class="input__div">
+        <span>input 1. Only numbers (0-9), dot (.) and comma (,)</span>
+        <input id="i__f1" type="text">
+    </div>
+
+    <div class="input__div">
+        <span>input 2. Only numbers (0-9), dot (.) and comma (,)</span>
+        <input id="i__f2" type="text">
+    </div>
+    <p>In the input 1 and input 2 fields, check for 1 point (.) or more.</p>
+    <div class="button">
+        <button id="run__calk" type="button">Calculate</button>
+    </div>
+    <div class="results__div">
+        <h2>Results</h2>
+        <p>Formula: input 1 + input 2 / selected value (10, 100 or 1000)</p>
+        <p class="label">Result division <span id="label__size" style="background-color: #dadcf8;color: #4650dd;">10</span></p>
+        <div id="o__res" class="div__result">0</div>
+    </div>
+
+</div>
+
+<script src="./js/calculator-template.js"></script>
+
+</body>
+</html>
